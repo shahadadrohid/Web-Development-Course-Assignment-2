@@ -156,3 +156,22 @@ h1{
 .sponsors a:hover{
     padding: 8px;
 }
+
+/* Footer Section  */
+
+.footer-img img{
+    width: 300px;
+    margin: 0 518px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    margin-right: 10px; 
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-family: Ubuntu,Arial,sans-serif;
+}
