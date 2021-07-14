@@ -64,3 +64,26 @@ h1{
 .header-content{
     background-image: url(images/image1.png); 
 }
+
+/* article style  */
+
+.blogimg img{
+    width: 247px;
+    height: 180px;
+    padding: 10px 10px;
+}
+.bloginfo{
+    font-family: 'Open Sans', sans-serif;
+    height: 220px;
+    padding: 10px 10px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px 200px;
+}
+.blog{
+    border: 2px solid #ccc;
+    box-shadow: 10px 10px 20px #ccc;
+    margin: 0 20px;
+}
