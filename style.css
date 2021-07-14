@@ -13,6 +13,9 @@
     margin-right: 20px;
     font-family: 'Open Sans', sans-serif;
 }
+.navright li{
+    list-style: none;
+}
 .navleft{
     margin-right: 100px;
     margin-top: 30px;
@@ -90,4 +93,23 @@ h1{
     box-shadow: 10px 10px 40px #ccc;
     margin: 16px 20px;
     
+}
+
+/* sponsors style  */
+
+.sponsortitle{
+    font-size: 30px;
+    font-family: Ubuntu,Arial,sans-serif;
+    color: #173562;
+    display: flex;
+    justify-content: center;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    width: 448px;
+    margin: 50px 450px;
+}
+.sponsors a:hover{
+    padding: 8px;
 }
