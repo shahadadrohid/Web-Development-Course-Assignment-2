@@ -241,7 +241,14 @@ h1{
     }
     .blogs{
         grid-template-columns: repeat(1, 1fr);
-        margin: 20px 50px;
+        margin: 20px 40px;
+    }
+    .blog{
+        border: 1px solid #ccc;
+        border-radius: 16px;
+        box-shadow: 10px 10px 40px #ccc;
+        margin: 16px 1px;
+        
     }
     .newsalbums{
         grid-template-columns: repeat(1, 1fr);
@@ -273,7 +280,7 @@ h1{
     .highlight img{
         margin-top: 20px;
         margin-left: 20px;
-        width: 400px;
+        width: 280px;
     }
     .sponsortitle{
         font-size: 30px;
@@ -284,12 +291,29 @@ h1{
     }
     .sponsors{
         width: 200px;
-        margin: 40px 220px;
+        margin: 40px 130px;
     }
     .sponsors a:hover{
         padding: 5px;
     }
+    .footer-img img{
+        width: 200px;
+        margin: 0 55px;}
+
+        .social-icons{
+            display: flex;
+            justify-content: center;
+        }
+        .icon{
+            margin-right: 5px; 
+        }
+        .copyright{
+            display: flex;
+            margin-left: 25px;
+            justify-content: center;
+            font-family: Ubuntu,Arial,sans-serif;
+        }
 }
-@media only screen (max width:) {
+@media only screen (mini-width:) {
     
 }
