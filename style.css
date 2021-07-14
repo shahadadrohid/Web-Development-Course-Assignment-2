@@ -95,6 +95,33 @@ h1{
     
 }
 
+/* Highlight Content  */
+
+.newshighlight h1{
+    padding-left: 16px;
+    font-size: 40px;
+    font-family: Ubuntu,Arial,sans-serif;
+}
+.newsalbums{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.newsalbum a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.newsarticle{
+    padding: 0px 120px;
+}
+.newsphoto img{
+    width: 300px;
+    height: 200px;
+    padding: 0px 120px;
+}
+.newsalbum{
+    margin-top: 30px;
+}
 /* sponsorsstyle  */
 
 .sponsortitle{
