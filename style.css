@@ -175,3 +175,15 @@ h1{
     justify-content: center;
     font-family: Ubuntu,Arial,sans-serif;
 }
+
+/*-------- Media Queries -------- */
+
+/* Mobile Device  */
+
+@media only screen and (max-width:688px) {
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px 50px;
+    }
+    
+}
