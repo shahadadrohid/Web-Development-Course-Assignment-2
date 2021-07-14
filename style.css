@@ -95,7 +95,7 @@ h1{
     
 }
 
-/* Highlight Content  */
+/* News Content  */
 
 .newshighlight h1{
     padding-left: 16px;
@@ -121,6 +121,24 @@ h1{
 }
 .newsalbum{
     margin-top: 30px;
+}
+
+/* Highlight Content Style  */
+
+.highlight{
+    display: flex;
+    margin: 50px 40px;
+    background-image: url(images/image1.png);
+}
+.highlight-content{
+    font-size: 20px;
+    margin-left: 80px;
+    width: auto;
+    color: white;
+}
+.highlight img{
+    margin-left: 280px;
+    width: 400px;
 }
 /* sponsorsstyle  */
 
