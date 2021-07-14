@@ -1,6 +1,12 @@
+/* -------- CSS Style --------  */
+
 body{
     margin: 0;
 }
+
+/* nav section style  */
+
+
 .navsection{
     display: flex;
     justify-content: space-between;  
@@ -34,6 +40,8 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
 }
+
+/* Nav style end  */
 
 /* Header section another style  */
 
@@ -71,6 +79,8 @@ h1{
     background-image: url(images/image1.png); 
 }
 
+/* Header Section End  */
+
 /* article style  */
 
 .blogimg img{
@@ -94,11 +104,12 @@ h1{
     border: 1px solid #ccc;
     border-radius: 16px;
     box-shadow: 10px 10px 40px #ccc;
-    margin: 16px 20px;
-    
+    margin: 16px 20px; 
 }
 
-/* News Content  */
+/* Article Style End  */
+
+/* News Content Style */
 
 .newshighlight h1{
     padding-left: 16px;
@@ -125,6 +136,7 @@ h1{
 .newsalbum{
     margin-top: 30px;
 }
+/* News content style end  */
 
 /* Highlight Content Style  */
 
@@ -143,6 +155,9 @@ h1{
     margin-left: 280px;
     width: 400px;
 }
+
+/* Highlight Content Style End  */
+
 /* sponsorsstyle  */
 
 .sponsortitle{
@@ -160,7 +175,9 @@ h1{
     padding: 8px;
 }
 
-/* Footer Section  */
+/* Sponsor style end  */
+
+/* Footer Section Style  */
 
 .footer-img img{
     width: 300px;
@@ -178,10 +195,11 @@ h1{
     justify-content: center;
     font-family: Ubuntu,Arial,sans-serif;
 }
+/* Footer style end  */
 
 /*-------- Media Queries -------- */
 
-/* Mobile Device  */
+/* Mobile Device style */
 
 @media only screen and (max-width:688px) {
     .navsection{
@@ -316,8 +334,9 @@ h1{
         }
 }
 
+/* Mobile Device style End  */
 
-/* Tablet Devices  */
+/* Tablet Devices style */
 
 
 @media only screen and (min-width: 688px) and (max-width:992px) {
@@ -462,3 +481,7 @@ h1{
             font-family: Ubuntu,Arial,sans-serif;
         }
 }
+
+/* Tablet device style end  */
+
+/* -------- CSS Style End -------- */
